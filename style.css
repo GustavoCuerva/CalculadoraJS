@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color:rgba(0, 0, 0, 0.062);
+}
+
+.calculadora{
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    color: white;
+}
+
+.campo{
+    text-align: right;
+    height: 50px;
+    width: 90%;
+    background-color: rgba(177, 174, 174, 0.39);
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+tr{
+    width: 100%;
+}
+
+.bt{
+    font-size: 200%;
+    height: 50px;
+    width: 1%;
+    background-color: rgba(41, 40, 40, 0.39);
+    color: white;
+}
+
+.bt:hover{
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+}
