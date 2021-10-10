@@ -17,15 +17,23 @@ body{
     transform: translate(-50%, -50%);
     width: 70%;
     color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 .campo{
     text-align: right;
     height: 50px;
-    width: 90%;
-    background-color: rgba(177, 174, 174, 0.39);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
     margin: auto;
     margin-bottom: 5px;
+    border-radius: 20px;
 }
 
 tr{
@@ -36,8 +44,9 @@ tr{
     font-size: 200%;
     height: 50px;
     width: 1%;
-    background-color: rgba(41, 40, 40, 0.39);
+    background-color: rgba(41, 40, 40, 0.514);
     color: white;
+    border-radius: 10px;
 }
 
 .bt:hover{
