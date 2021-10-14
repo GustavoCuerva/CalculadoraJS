@@ -29,11 +29,14 @@ h2{
 .campo{
     text-align: right;
     height: 50px;
-    width: 100%;
+    width: 97%;
     background-color: rgb(255, 255, 255);
     margin: auto;
     margin-bottom: 5px;
     border-radius: 20px;
+    color: black;
+    font-size: 40px;
+    padding-right: 10px;
 }
 
 tr{
