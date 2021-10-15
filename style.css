@@ -7,7 +7,7 @@
 body{
     background-color:rgba(0, 0, 0, 0.062);
 }
-
+/*Div principal*/
 .calculadora{
     position: absolute;
     text-align: center;
@@ -44,7 +44,7 @@ h2{
     padding-right: 10px;
     overflow: hidden;
 }
-
+/*Digitos*/
 tr{
     width: 100%;
 }
@@ -64,7 +64,7 @@ tr{
     color: black;
     cursor: pointer;
 }
-
+/*Botão apagar 1*/
 .back{
     width: 20%;
     border: none;
@@ -72,6 +72,7 @@ tr{
     background-color: rgb(100, 96, 96);
 }
 
+/*Botão de igual*/
 .igual{
     background-color: rgb(60, 6, 255);
 }
@@ -82,11 +83,13 @@ tr{
     color: rgb(255, 255, 255);
 }
 
+/*Campo ao exibir o resultado*/
 .resultado{
     color: rgb(0, 0, 0);
     font-weight:bold;
 }
 
+/*Apagar tudo*/
 .red{
     background-color: rgba(255, 17, 0, 0.733);
 }
