@@ -9,41 +9,46 @@
 
     <title>Calculadora</title>
 </head>
-<body>
+<body  onselectstart="return false">
     
     <div class="calculadora">
         <h2>Calculadora</h2>
-
-        <p class="campo" id="campo"></p>
+        
+        <div class="cabecalho">
+            <p class="campo" id="campo"></p>
+            <button class="bt back" onclick="back()"><=</button>
+        </div>
 
         <table>
             <tr>
                 <td class="bt" onclick="digitar('*')">X</td>
                 <td class="bt" onclick="digitar('/')">/</td>
-                <td class="bt" onclick="limpar()">C</td>
-                <td class="bt" onclick="back()"><=</td>
+                <td class="bt" onclick="digitar('-')">-</td>
+                <td class="bt red" onclick="limpar()">C</td>
+                <!--<td class="bt" onclick="back()"><=</td>-->
             </tr>
             <tr>
                 <td class="bt" onclick="digitar('7')">7</td>
                 <td class="bt" onclick="digitar('8')">8</td>
                 <td class="bt" onclick="digitar('9')">9</td>
-                <td class="bt" onclick="digitar('-')">-</td>
+                <td class="bt" onclick="digitar('+')">+</td>
             </tr>
             <tr>
                 <td class="bt" onclick="digitar('4')">4</td>
                 <td class="bt" onclick="digitar('5')">5</td>
                 <td class="bt" onclick="digitar('6')">6</td>
-                <td class="bt" onclick="digitar('+')">+</td>
+                <td class="bt" onclick="digitar('.')">,</td>
             </tr>
             <tr>
                 <td class="bt" onclick="digitar('1')">1</td>
                 <td class="bt" onclick="digitar('2')">2</td>
                 <td class="bt" onclick="digitar('3')">3</td>
-                <td class="bt" rowspan="2" onclick="calcular()">=</td>
+                <td class="bt igual" rowspan="2" onclick="calcular()">=</td>
             </tr>
             <tr>
-                <td class="bt" colspan="2" onclick="digitar('0')">0</td>
-                <td class="bt" onclick="digitar('.')">,</td>
+                <td class="bt" onclick="digitar('(')">(</td>
+                <td class="bt" onclick="digitar('0')">0</td>
+                <td class="bt" onclick="digitar(')')">)</td>
             </tr>
         </table>
 
